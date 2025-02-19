@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="query_types">
+        <item>Университеты Беларуси</item>
+        <item>Университеты Канады</item>
+        <item>Университеты Германии</item>
+    </string-array>
+</resources>
