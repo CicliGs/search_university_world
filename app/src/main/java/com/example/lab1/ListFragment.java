@@ -126,8 +126,8 @@ public class ListFragment extends Fragment {
         switch (query) {
             case "Университеты Беларуси":
                 return "http://universities.hipolabs.com/search?country=Belarus";
-            case "Университеты США":
-                return "http://universities.hipolabs.com/search?country=United+States";
+            case "Университеты Канады":
+                return "http://universities.hipolabs.com/search?country=Canada";
             case "Университеты Германии":
                 return "http://universities.hipolabs.com/search?country=Germany";
             default:

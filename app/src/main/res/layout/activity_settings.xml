@@ -1,6 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
     android:orientation="vertical"
     android:padding="16dp">
 
@@ -8,18 +9,24 @@
         android:id="@+id/editTextServerUrl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Введите URL сервера"/>
+        android:hint="Введите URL сервера" />
 
     <EditText
         android:id="@+id/editTextRowCount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Количество строк"
-        android:inputType="number"/>
+        android:inputType="number" />
 
     <Button
         android:id="@+id/buttonSaveSettings"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Сохранить настройки"/>
+        android:text="Сохранить настройки" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Разработал Германович Е.А."/>
 </LinearLayout>
